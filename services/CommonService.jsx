@@ -1,4 +1,5 @@
-const baseUrl = "http://localhost:4042/api/";
+// const baseUrl = "http://localhost:4042/api/";
+const baseUrl = "https://magicbricks-scraper.vercel.app//api/";
 import axios from "axios";
 
 export const saveAllProperties = (data, callback) => {
