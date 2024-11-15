@@ -1,5 +1,4 @@
-// const baseUrl = "http://localhost:4042/api/";
-const baseUrl = "https://vercel.live/api/production-domains/api/";
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 import axios from "axios";
 
 export const saveAllProperties = (data, callback) => {
