@@ -1,4 +1,4 @@
-const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'api/';
 import axios from "axios";
 
 export const saveAllProperties = (data, callback) => {
